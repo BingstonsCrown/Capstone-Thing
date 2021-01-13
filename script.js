@@ -49,7 +49,8 @@ function createCards() {
 }
 
 function showInfo(index) {
-    let cardtext = ["a", "b", "c", "d", "e", "f", "g", "h"];
+    let cardtext = ["a", "Good for picking large scale elections such as picking a new president, king, or ruler. In this system voters tier the candidates that they want or are ok with at the top and least liked candidates at the bottom. This way most people will be happy someone they were at least ok with is elected.
+", "c", "d", "e", "f", "g", "h"];
     let info = document.getElementById("info-p");
     info.innerHTML = `${cardtext[index]}`;
 }
